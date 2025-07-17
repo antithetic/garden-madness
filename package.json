@@ -5,10 +5,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev --no-cache --continue",
+    "lint": "turbo lint",
+    "clean": "turbo clean && rm -rf node_modules",
+    "format": "turbo format",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.4"
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.5"
+  }
 }
