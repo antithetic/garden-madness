@@ -72,3 +72,5 @@ export default defineConfig({
 *   `z.array(z.string()).optional()`: Defines an optional array where each element is a string. This is perfect for `tags` or `relatedNotes`.
 
 By setting this up, Astro will automatically provide TypeScript types for your content collections, enhancing your development experience with autocompletion and type checking.
+
+
