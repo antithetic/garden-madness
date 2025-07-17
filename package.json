@@ -1,26 +1,14 @@
 {
-  "private": true,
-  "name": "garden-madness",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "clean": "turbo clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md,astro,css}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.12.4",
-  "devDependencies": {
-    "eslint": "^9.31.0",
-    "prettier": "^3.6.2",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.14",
-    "turbo": "^2.5.5"
+  "dependencies": {
+    "astro": "^5.11.2"
   }
 }
